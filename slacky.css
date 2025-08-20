@@ -1,0 +1,772 @@
+@media only screen and (min-width: 992px) {
+    .secondarycontainer {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .background {
+        width: 100%;
+        height: 100vh;
+    }
+    .line-text {
+        display: flex;
+        align-items: center;
+        justify-items: center;
+        justify-content: center;
+        align-content: center;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        margin: 0;
+        margin-top: 5px;
+        
+        width: 410px;
+        
+    }
+    .line1,.line2 {
+        content: "";
+        flex: 1;
+        border-top: 1px solid #d1d1d1;
+    
+    }
+    .line1{
+        display: flex;
+        justify-content:space-evenly;
+        
+    }
+    .line2 {
+        display: flex;
+        justify-content:space-evenly;
+        
+    }
+    .linespace{
+        margin: 10px;
+        font-size: 15px;
+    }
+
+    
+    .option {
+        display: flex;
+        align-content: center;
+        justify-content: center;
+        font-family: 'lato', sans-serif;
+        font-size: 18px;
+        color: black;
+        margin: 0;
+        padding-top: 10px;
+        padding-bottom: 40px;
+    }
+    .emailmenu{
+        width: fit-content;
+        display: flex;
+        flex-direction: column;
+    }
+    #name {
+        width: 400px;
+        height: 40px;
+        border-radius: 10px;
+    border: 1px solid lightgray;
+        font-size: 14pt;
+        padding-left: 10px
+    }
+
+    #emailbox {
+        height: 40px;
+        color: #fff;
+        background-color: #4A154B;
+        border-radius: 10px;
+        font-size: 14pt;
+        font-family: 'lato', sans-serif;
+    }
+
+    .form-container{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .form input{
+        display: flex;
+        flex-direction: column;
+    }
+
+    #googleimg {
+        width: 20px;
+        height: 20px;
+        margin-top: 10px;
+        margin-left:55px ;
+        
+    }
+    button {
+        background-color: white;
+        border-color: lightgray;
+    }
+    #appleimg {
+        width: 20px;
+        height: 20px;
+        margin-top: 10px;
+        margin-left: 55px
+    }
+    .appletxt {
+    margin: 0;
+        padding-left:5px;
+        padding-top: 10px;
+        font-weight: bold;
+        font-size: 20px;
+    }
+    .googletxt {
+        margin: 0;
+        padding-top: 10px;
+        padding-left: 5px;
+        font-weight: bold;
+        font-size: 20px;
+        
+        
+    }
+    .buttoncontainer {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        height: 50px;
+       
+    }
+
+    .googlecontainer {
+        display: flex;
+        justify-items: left;
+        align-content: center;
+        width: 200px;
+        height: 44px;
+        margin-left: 0px;
+        margin-top: 8px;
+        border: 1px solid #5e5d6073;
+        border-radius: 10px;
+        border-width: 2px;
+        box-sizing: border-box;
+    }
+    .applecontainer {
+        display: flex;
+        justify-items: left;
+        align-content: center;
+        width: 200px;
+        height: 44px;
+        margin-left: 10px;
+        margin-top: 8px;
+        border: 1px solid #5e5d6073;
+        border-radius: 10px;
+        box-sizing: border-box;
+        border-width: 2px;
+    }
+
+
+    #extra {
+        display: flex;
+        justify-content: center;
+        
+        margin-top: 20px;
+    }
+    .trouble {
+        font-size: 20px;
+        padding-right: 5px;
+    }
+    .worklink {
+        font-size: 20px;
+        text-decoration: none;
+        color: rgb(27,117,208)
+    }
+   #slacklogo {
+        display: flex;
+        justify-content: left;
+        height: 26px;
+        margin-top: 50px
+    }
+
+    .logo {
+        display: flex;
+        justify-content: left;
+        padding-left: 45%
+
+    }
+    .sidecontainer {
+        display: flex;
+        justify-content: center;
+        margin-right: 3%;
+    }
+
+    .creation {
+        display: flex;
+        align-items: right;
+        text-decoration: none;
+        color: #1264a3;
+        font-size: 14px;
+        font-weight: var(bold, 700);
+    }
+
+    .top-words {
+        display: flex;
+        flex-direction: column;
+        justify-content: right;
+        padding-left:30%
+    }
+
+    .new {
+        display: flex;
+        justify-content: right;
+        font-size: 14px;
+        color: rgba(var(--sk_foreground_max_solid, 97, 96, 97), 1);
+        margin-top: 40px;
+    }
+    .linklist {
+    display: inline-block;
+    zoom: 1;
+    display: inline;
+    padding: 10px;
+    text-decoration: none;
+    margin-right: 5px;
+    color: rgb(27,117,208);
+    list-style: none;
+    margin-top: 90%;
+    
+        
+
+    }
+    #priv {
+        text-decoration: none;
+        color: rgba(var(--sk_foreground_max_solid, 97, 96, 97), 1);
+        
+    }
+    #conta {
+    text-decoration: none;
+    color: rgba(var(--sk_foreground_max_solid, 97, 96, 97), 1);
+    }
+    #changa {
+    text-decoration: none;
+    color: rgba(var(--sk_foreground_max_solid, 97, 96, 97), 1);
+    }
+    .test {
+        font-size: 35pt;
+        font-weight: bold;
+        font-family: 'lato', sans-serif;
+    }
+    .footer {
+      display: flex;
+      justify-content: center;
+      min-height: 100vh;
+      margin: 0
+        
+        }
+    #globe {
+        height: 12px;
+    }
+    #arrow {
+        height: 10px;
+    }
+}
+@media screen and (max-width: 640px)  {
+    .secondarycontainer {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+     .background {
+        width: 100%;
+        height: 100vh;
+    }
+    .line-text {
+        display: flex;
+        align-items: center;
+        justify-items: center;
+        justify-content: center;
+        align-content: center;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        margin: 0;
+        margin-top: 5px;
+        
+        width: 410px;
+        
+    }
+    .line1,.line2 {
+        content: "";
+        flex: 1;
+        border-top: 1px solid #d1d1d1;
+    
+    }
+    .line1{
+        display: flex;
+        justify-content:space-evenly;
+        
+    }
+    .line2 {
+        display: flex;
+        justify-content:space-evenly;
+        
+    }
+    .linespace{
+        margin: 10px;
+        font-size: 15px;
+    }
+   
+    .option {
+        display: flex;
+        align-content: center;
+        justify-content: center;
+        font-family: 'lato', sans-serif;
+        font-size: 14px;
+        color: black;
+        margin: 0;
+        padding-top: 10px;
+        padding-bottom: 20px;
+    }
+    .emailmenu{
+        width: fit-content;
+        display: flex;
+        flex-direction: column;
+    }
+    #name {
+        width: 400px;
+        height: 44px;
+        border-radius: 10px;
+    border: 1px solid lightgray;
+        font-size: 18px;
+        padding-left: 12px
+    }
+
+    #emailbox {
+        height: 44px;
+        color: #fff;
+        background-color: #4A154B;
+        border-radius: 10px;
+        font-size: 18px;
+        font-family: 'lato', sans-serif;
+    }
+
+    .form-container{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .form input{
+        display: flex;
+        flex-direction: column;
+    }
+
+    #googleimg {
+        width: 20px;
+        height: 20px;
+        margin-top: 10px;
+        margin-left:55px ;
+        
+    }
+    button {
+        background-color: white;
+        border-color: lightgray;
+    }
+    #appleimg {
+        width: 20px;
+        height: 20px;
+        margin-top: 10px;
+        margin-left: 55px
+    }
+    .appletxt {
+    margin: 0;
+        padding-left:5px;
+        padding-top: 10px;
+        font-weight: bold;
+        font-size: 18px;
+    }
+    .googletxt {
+        margin: 0;
+        padding-top: 10px;
+        padding-left: 5px;
+        font-weight: bold;
+        font-size: 18px;
+        
+        
+    }
+    .buttoncontainer {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        height: 50px;
+        
+    }
+
+    .googlecontainer {
+        display: flex;
+        justify-items: left;
+        align-content: center;
+        width: 200px;
+        height: 44px;
+        margin-left: 0px;
+        margin-top: 8px;
+        border: 1px solid #5e5d6073;
+        border-radius: 10px;
+        border-width: 2px;
+        box-sizing: border-box;
+    }
+    .applecontainer {
+        display: flex;
+        justify-items: left;
+        align-content: center;
+        width: 200px;
+        height: 44px;
+        margin-left: 10px;
+        margin-top: 8px;
+        border: 1px solid #5e5d6073;
+        border-radius: 10px;
+        box-sizing: border-box;
+        border-width: 2px;
+    }
+
+
+    #extra {
+        display: flex;
+        justify-content: center;
+        margin-top: 20px;
+    }
+    .trouble {
+        font-size: 18px;
+        font-family: Slack-Lato, Slack-Fractions, appleLogo, sans-serif;
+        padding-right: 5px;
+    }
+    .worklink {
+        font-size: 18px;
+        font-family: Slack-Lato, Slack-Fractions, appleLogo, sans-serif;
+        text-decoration: none;
+        color: rgb(27,117,208)
+    }
+    #slacklogo {
+        height: 26px;
+    }
+    .slackcontainer {
+        display: flex;
+        justify-content: flex-start;
+        margin: 0;
+        margin-top: 25px;
+        margin-left: 10px
+    }
+
+
+    .creation {
+        display: none;
+    }
+    .new {
+        display:none;
+    }
+    .linklist {
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    margin-right: 5px;
+    color: rgb(27,117,208);
+    list-style: none;
+    
+    
+        
+
+    }
+    #priv {
+        text-decoration: none;
+        color: rgba(var(--sk_foreground_max_solid, 97, 96, 97), 1);
+        
+    }
+    #conta {
+    text-decoration: none;
+    color: rgba(var(--sk_foreground_max_solid, 97, 96, 97), 1);
+    }
+    #changa {
+    text-decoration: none;
+    color: rgba(var(--sk_foreground_max_solid, 97, 96, 97), 1);
+    }
+    .test {
+        font-size: 28px;
+        font-weight: bold;
+        font-family: 'lato', sans-serif;
+    }
+    .footer {
+      display: flex;
+      flex-direction: column;
+      justify-content: end;
+      min-height: 100vh;
+      margin: 0;
+        
+        }
+    #globe {
+        height: 12px;
+        margin-right: 5px;
+        margin-top: 2px
+    }
+    #arrow {
+        height: 10px;
+        margin-left: 5px;
+        margin-top: 5px;
+    }
+}
+@media only screen and (min-width: 641px) and (max-width: 991.9px) {
+     .secondarycontainer {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .background {
+        width: 100%;
+        height: 100vh;
+    }
+    .line-text {
+        display: flex;
+        align-items: center;
+        justify-items: center;
+        justify-content: center;
+        align-content: center;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        margin: 0;
+        margin-top: 5px;
+        
+        width: 410px;
+        
+    }
+    .line1,.line2 {
+        content: "";
+        flex: 1;
+        border-top: 1px solid #d1d1d1;
+    
+    }
+    .line1{
+        display: flex;
+        justify-content:space-evenly;
+        
+    }
+    .line2 {
+        display: flex;
+        justify-content:space-evenly;
+        
+    }
+    .linespace{
+        margin: 10px;
+        font-size: 15px;
+    }
+   
+    .option {
+        display: flex;
+        align-content: center;
+        justify-content: center;
+        font-family: 'lato', sans-serif;
+        font-size: 18px;
+        color: black;
+        margin: 0;
+        padding-top: 20px;
+        padding-bottom: 40px;
+    }
+    .emailmenu{
+        width: fit-content;
+        display: flex;
+        flex-direction: column;
+    }
+    #name {
+        width: 400px;
+        height: 40px;
+        border-radius: 10px;
+    border: 1px solid lightgray;
+        font-size: 14pt;
+        padding-left: 10px
+    }
+
+    #emailbox {
+        height: 40px;
+        color: #fff;
+        background-color: #4A154B;
+        border-radius: 10px;
+        font-size: 14pt;
+        font-family: 'lato', sans-serif;
+    }
+
+    .form-container{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .form input{
+        display: flex;
+        flex-direction: column;
+    }
+
+    #googleimg {
+        width: 20px;
+        height: 20px;
+        margin-top: 10px;
+        margin-left:55px ;
+        
+    }
+    button {
+        background-color: white;
+        border-color: lightgray;
+    }
+    #appleimg {
+        width: 20px;
+        height: 20px;
+        margin-top: 10px;
+        margin-left: 55px
+    }
+    .appletxt {
+    margin: 0;
+        padding-left:5px;
+        padding-top: 10px;
+        font-weight: bold;
+        font-size: 20px;
+    }
+    .googletxt {
+        margin: 0;
+        padding-top: 10px;
+        padding-left: 5px;
+        font-weight: bold;
+        font-size: 20px;
+        
+        
+    }
+    .buttoncontainer {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        height: 50px;
+       
+    }
+
+    .googlecontainer {
+        display: flex;
+        justify-items: left;
+        align-content: center;
+        width: 200px;
+        height: 44px;
+        margin-left: 0px;
+        margin-top: 8px;
+        border: 1px solid #5e5d6073;
+        border-radius: 10px;
+        border-width: 2px;
+        box-sizing: border-box;
+    }
+    .applecontainer {
+        display: flex;
+        justify-items: left;
+        align-content: center;
+        width: 200px;
+        height: 44px;
+        margin-left: 10px;
+        margin-top: 8px;
+        border: 1px solid #5e5d6073;
+        border-radius: 10px;
+        box-sizing: border-box;
+        border-width: 2px;
+    }
+
+
+    #extra {
+        display: flex;
+        justify-content: center;
+        
+        margin-top: 20px;
+    }
+    .trouble {
+        font-size: 20px;
+        padding-right: 5px;
+    }
+    .worklink {
+        font-size: 20px;
+        text-decoration: none;
+        color: rgb(27,117,208)
+    }
+    #slacklogo {
+        display: flex;
+        justify-content: left;
+        height: 26px;
+        margin-top: 50px
+    }
+
+    .logo {
+        display: flex;
+        justify-content: left;
+        padding-left: 45%
+
+    }
+    .sidecontainer {
+        display: flex;
+        justify-content: center;
+        margin-right: 3%;
+    }
+
+    .creation {
+        display: flex;
+        align-items: right;
+        text-decoration: none;
+        color: #1264a3;
+        font-size: 14px;
+        font-weight: var(bold, 700);
+    }
+
+    .top-words {
+        display: flex;
+        flex-direction: column;
+        justify-content: right;
+        padding-left:30%
+    }
+
+    .new {
+        display: flex;
+        justify-content: right;
+        font-size: 14px;
+        color: rgba(var(--sk_foreground_max_solid, 97, 96, 97), 1);
+        margin-top: 40px;
+    }
+    .linklist {
+    display: inline-block;
+    zoom: 1;
+    display: inline;
+    padding: 10px;
+    text-decoration: none;
+    margin-right: 5px;
+    color: rgb(27,117,208);
+    list-style: none;
+    margin-top: 90%
+        
+
+    }
+    #priv {
+        text-decoration: none;
+        color: rgba(var(--sk_foreground_max_solid, 97, 96, 97), 1);
+        
+    }
+    #conta {
+    text-decoration: none;
+    color: rgba(var(--sk_foreground_max_solid, 97, 96, 97), 1);
+    }
+    #changa {
+    text-decoration: none;
+    color: rgba(var(--sk_foreground_max_solid, 97, 96, 97), 1);
+    }
+    .test {
+        font-size: 35pt;
+        font-weight: bold;
+        font-family: 'lato', sans-serif;
+    }
+    .footer {
+      display: flex;
+      justify-content: center;
+      min-height: 100vh;
+      margin: 0;
+      bottom: 0;
+        }
+        
+    #globe {
+        height: 12px;
+        margin-right: 5px;
+        margin-top: 2px
+    }
+    #arrow {
+        height: 10px;
+        margin-left: 5px;
+        margin-top: 5px;
+    }
+}
